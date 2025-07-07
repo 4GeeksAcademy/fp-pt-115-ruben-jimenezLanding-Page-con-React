@@ -9,3 +9,39 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+body {
+    background-color: #9A9E85;
+}
+
+.jumbotron {
+    background-image: url("https://images.squarespace-cdn.com/content/v1/637c0a5adafeb04f70309b99/9e5734bf-474e-4f42-900f-ecd6cb32d8bb/artillery+battery+760_f_small.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #EDEAE0;
+}
+.containerCard{
+    background-color: #9A9E85;
+}
+.cardImg {
+    height: 32rem;
+    width: 100%;
+}
+
+.cardLetter p {
+    color: #EDEAE0;
+    height: 12rem;
+    margin-bottom: 1rem;
+    overflow-y: auto;
+}
+
+.cardLetter h5 {
+    color: #EDEAE0;
+    height: 3rem;
+}
+.footer{
+   background-color:#5a1e61; 
+   color:#EDEAE0;
+   text-align: center;
+   padding: 2rem;
+}
